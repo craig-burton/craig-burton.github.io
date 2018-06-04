@@ -1,0 +1,125 @@
+:root {
+  --main-color: #000000;
+  --white-color: #FFFFFF;
+  --secondary-color: #B20CCE;
+  --grey-color: #9FB7B9;
+  --tertiary-color: #BCEBCB;
+}
+
+.myTextSecondary {
+  color: var(--secondary-color);
+}
+
+.myTextPrimary {
+  color: var(--main-color);
+}
+
+.container-fluid {
+    padding-bottom: 70px;
+    background-color: var(--white-color);
+
+}
+
+#education {
+  background-color: var(--white-color);
+}
+
+#resume {
+  background-color: var(--white-color);
+}
+
+#links {
+  background-color: var(--white-color);
+
+}
+
+#about {
+  padding-top: 150px;
+  background-color: var(--white-color);
+
+}
+
+.navbar {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+  border-bottom: 2px solid var(--main-color);
+}
+
+
+.navbar-brand {
+  font-size: 30px;
+}
+
+.navbar-nav  li a:hover {
+  color: var(--secondary-color) !important;
+}
+
+.navbar-brand:hover {
+  color: var(--main-color) !important;
+}
+
+.intro-header {
+  color: var(--main-color);
+  text-align: left;
+}
+
+.intro-paragraph {
+    color: var(--main-color);
+    text-align: left;
+}
+
+.navbar {
+  background-color: var(--white-color) !important;
+}
+
+.subheading {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 1.35rem;
+  color: var(--secondary-color);
+}
+
+.resume-item {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  padding-left: 50px;
+  padding-top: 75px;
+  letter-spacing: 2px;
+  border-bottom: 1px solid #dee2ef;
+  background-color: var(--white-color);
+
+}
+
+.resume-item-header {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    padding-left: 50px;
+    letter-spacing: 2px;
+    background-color: var(--white-color);
+}
+
+.resume-date {
+  text-align: right;
+}
+
+.company-img {
+  max-width: 10%;
+  height: auto;
+}
+
+.list-social-icons {
+  text-align: center;
+}
+
+.fa-circle {
+  color: var(--main-color);
+}
+
+.fa-stack i:hover {
+  color: var(--secondary-color);
+}
+
+.list-social-icons a .fa-lg {
+  font-size: 1.75rem;
+}
