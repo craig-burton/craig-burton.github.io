@@ -30,7 +30,6 @@
 
 #links {
   background-color: var(--white-color);
-
 }
 
 #about {
@@ -84,7 +83,7 @@
 .resume-item {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   padding-left: 50px;
-  padding-top: 75px;
+  padding-top: 100px;
   letter-spacing: 2px;
   border-bottom: 1px solid #dee2ef;
   background-color: var(--white-color);
